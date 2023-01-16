@@ -1,4 +1,1274 @@
-.screen-desktop-instance-1 {
-  height: 100%;
+.landing-page {
+  color: #000;
   width: 100%;
+  height: 100%;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: SF Pro Display, Arial;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 19px;
+  display: flex;
+}
+
+.navigation {
+  width: 100%;
+  background-color: #fff;
+  flex-direction: row;
+  flex-basis: 2%;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-bottom: 43px;
+  font-weight: 500;
+  display: flex;
+}
+
+.navbar {
+  height: 100%;
+  background-color: #fff;
+  flex-direction: row;
+  flex-basis: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 1px;
+  padding-left: 54px;
+  padding-right: 54px;
+  display: flex;
+}
+
+.logo {
+  width: 40px;
+  height: 24px;
+  object-fit: cover;
+  margin-left: 12px;
+}
+
+.wakanda {
+  margin-top: 1px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+.nav-item {
+  margin-left: 306px;
+}
+
+.makers-button {
+  color: #fff;
+  text-align: center;
+  height: 50%;
+  background-color: #0077c0;
+  border: none;
+  border-radius: 10px;
+  flex-direction: row;
+  flex-basis: 10%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px;
+  font-family: SF Pro Display, Arial;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 40px;
+  display: flex;
+}
+
+.flex-container {
+  width: 80%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 18px;
+  line-height: 24px;
+  display: flex;
+}
+
+.flex-container-1 {
+  height: 60%;
+  flex-direction: column;
+  flex-basis: 47%;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: 38px;
+  display: flex;
+}
+
+.recruit-top-talented {
+  letter-spacing: -1px;
+  align-self: flex-end;
+  margin-bottom: 7px;
+  font-size: 3.75rem;
+  line-height: 75px;
+}
+
+.connect-you-to-thoud {
+  margin-top: 3px;
+  margin-left: 1px;
+  font-weight: 400;
+}
+
+.button {
+  color: #fff;
+  text-align: center;
+  width: 30%;
+  background-color: #0077c0;
+  border: none;
+  border-radius: 10px;
+  flex-direction: row;
+  flex-basis: 12%;
+  justify-content: center;
+  align-items: center;
+  font-family: SF Pro Display, Arial;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 40px;
+  display: flex;
+}
+
+.flex-container-2 {
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.handsome-businessman {
+  z-index: 1;
+  width: 434px;
+  height: 677px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: -580px;
+}
+
+.vector {
+  width: 578px;
+  height: 580px;
+  object-fit: cover;
+}
+
+.social-proof {
+  width: 1440px;
+  height: 240px;
+  object-fit: cover;
+}
+
+.feature {
+  color: #fafafa;
+  width: 100%;
+  background-color: #0077c0;
+  flex-direction: column;
+  flex-basis: 14%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 18px 38px 69px 18px;
+  line-height: 57px;
+  display: flex;
+}
+
+.feature-1 {
+  letter-spacing: 3px;
+  margin-top: 14px;
+  margin-left: 9px;
+  font-weight: 600;
+  line-height: 19px;
+}
+
+.the-benefit-of-using {
+  text-align: center;
+  letter-spacing: -1px;
+  color: #fff;
+  margin-bottom: 28px;
+  margin-left: 9px;
+  font-size: 3rem;
+}
+
+.flex-container-3 {
+  width: 65%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.icon, .icon-1, .icon-2 {
+  width: 108px;
+  height: 108px;
+  object-fit: cover;
+  border-radius: 999px;
+}
+
+.flex-container-4 {
+  width: 65%;
+  flex-direction: row;
+  flex-basis: 3%;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 2px;
+  font-size: 1.5rem;
+  line-height: 29px;
+  display: flex;
+}
+
+.num-247-support {
+  align-self: flex-end;
+}
+
+.safe-secure {
+  margin-top: 1px;
+  margin-left: 33px;
+}
+
+.flex-container-5 {
+  width: 80%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: 24px;
+  margin-left: 6px;
+  font-weight: 400;
+  line-height: 24px;
+  display: flex;
+}
+
+.search-and-hire-the {
+  margin-right: 9px;
+}
+
+.you-have-any-concern {
+  margin-left: 5px;
+}
+
+.tutorial {
+  width: 100%;
+  background-color: #fff;
+  flex-direction: row;
+  flex-basis: 14%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 2px;
+  padding-right: 74px;
+  font-weight: 600;
+  display: flex;
+}
+
+.wireframes-various {
+  width: 451px;
+  height: 564px;
+  object-fit: cover;
+  margin-bottom: 1px;
+  margin-left: 9px;
+}
+
+.flex-container-6 {
+  height: 55%;
+  flex-direction: column;
+  flex-basis: 32%;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 2px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.wakanda-is-an-easy-p {
+  letter-spacing: -1px;
+  align-self: flex-end;
+  margin-bottom: 17px;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.flex-container-7 {
+  width: 45%;
+  flex-direction: row;
+  flex-basis: 9%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3px;
+  display: flex;
+}
+
+.flex-container-8 {
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  display: flex;
+}
+
+.ellipse-2 {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  margin-bottom: -32px;
+}
+
+.cat-absolute-container {
+  z-index: 1;
+  width: 100%;
+  flex-direction: row;
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1px;
+  padding-right: 1px;
+  display: flex;
+}
+
+.sign-in-to-our-websi {
+  margin-top: 2px;
+  margin-right: -49px;
+  font-weight: 400;
+}
+
+.flex-container-9 {
+  width: 55%;
+  flex-direction: row;
+  flex-basis: 9%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.flex-container-10 {
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  display: flex;
+}
+
+.ellipse-21 {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  margin-bottom: -32px;
+}
+
+.cat-absolute-container-1 {
+  z-index: 1;
+  width: 100%;
+  flex-direction: row;
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1px;
+  display: flex;
+}
+
+.fill-out-neccesary-i {
+  margin-top: 2px;
+  font-weight: 400;
+}
+
+.flex-container-11 {
+  width: 65%;
+  flex-direction: row;
+  flex-basis: 9%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.flex-container-12 {
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  display: flex;
+}
+
+.ellipse-22 {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  margin-bottom: -32px;
+}
+
+.cat-absolute-container-2 {
+  z-index: 1;
+  width: 100%;
+  flex-direction: row;
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1px;
+  display: flex;
+}
+
+.discover-thoudsands {
+  margin-top: 1px;
+  font-weight: 400;
+}
+
+.flex-container-13 {
+  width: 60%;
+  flex-direction: row;
+  flex-basis: 9%;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
+  display: flex;
+}
+
+.flex-container-14 {
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  font-weight: 600;
+  display: flex;
+}
+
+.ellipse-23 {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  margin-bottom: -32px;
+}
+
+.cat-absolute-container-3 {
+  z-index: 1;
+  width: 100%;
+  flex-direction: row;
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1px;
+  display: flex;
+}
+
+.view-freelancers-pro {
+  margin-top: 2px;
+}
+
+.flex-container-15 {
+  width: 70%;
+  flex-direction: row;
+  flex-basis: 9%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.flex-container-16 {
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  display: flex;
+}
+
+.ellipse-24 {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  margin-bottom: -32px;
+}
+
+.cat-absolute-container-4 {
+  z-index: 1;
+  width: 100%;
+  flex-direction: row;
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1px;
+  display: flex;
+}
+
+.complete-payment-it {
+  margin-top: 2px;
+  margin-right: -49px;
+  font-weight: 400;
+}
+
+.explore {
+  width: 100%;
+  background-color: #c7eeff;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 31px;
+  padding-left: 12px;
+  padding-right: 40px;
+  font-size: .75rem;
+  font-weight: 400;
+  line-height: 60px;
+  display: flex;
+}
+
+.flex-container-17 {
+  height: 45%;
+  flex-direction: column;
+  flex-basis: 33%;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: 12px;
+  margin-left: 11px;
+  font-size: 1rem;
+  display: flex;
+}
+
+.explore-and-hire-tal {
+  letter-spacing: -1px;
+  align-self: flex-end;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.weve-got-experts-for {
+  margin-bottom: 3px;
+  line-height: 24px;
+}
+
+.button-1 {
+  text-align: center;
+  color: #fff;
+  width: 35%;
+  background-color: #0077c0;
+  border: none;
+  border-radius: 10px;
+  flex-direction: row;
+  flex-basis: 17%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px;
+  padding-top: 1px;
+  font-family: SF Pro Display, Arial;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 40px;
+  display: flex;
+}
+
+.flex-container-18 {
+  height: 100%;
+  flex-direction: row;
+  flex-basis: 36%;
+  justify-content: space-between;
+  align-self: flex-end;
+  align-items: center;
+  font-weight: 500;
+  line-height: 14px;
+  display: flex;
+}
+
+.card {
+  z-index: 1;
+  height: 35%;
+  background-color: #fff;
+  flex-direction: column;
+  flex-basis: 34%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: -72px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 1px;
+  display: flex;
+}
+
+.avatar {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  margin-top: 2px;
+}
+
+.dianne-russell {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+.flex-container-19 {
+  width: 30%;
+  flex-direction: row;
+  flex-basis: 6%;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: 2px;
+  display: flex;
+}
+
+.star-11 {
+  width: 11px;
+  height: 11px;
+  object-fit: cover;
+}
+
+.num-49-5 {
+  align-self: flex-end;
+}
+
+.portrait-successful {
+  width: 494px;
+  height: 609px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  margin-left: -72px;
+}
+
+.testimonial {
+  width: 100%;
+  background-color: #fafafa;
+  flex-direction: column;
+  flex-basis: 20%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 17px 18px 38px;
+  display: flex;
+}
+
+.testimonial-1 {
+  letter-spacing: 3px;
+  color: #0077c0;
+  margin-top: 6px;
+  font-weight: 600;
+}
+
+.see-what-theyre-sayi {
+  text-align: center;
+  letter-spacing: -1px;
+  font-size: 3rem;
+  line-height: 60px;
+}
+
+.flex-container-20 {
+  width: 80%;
+  flex-direction: row;
+  flex-basis: 60%;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: 7px;
+  margin-left: 4px;
+  font-weight: 500;
+  display: flex;
+}
+
+.flex-container-21 {
+  height: 100%;
+  flex-direction: column;
+  flex-basis: 32%;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: 28px;
+  display: flex;
+}
+
+.card-1 {
+  width: 100%;
+  background-color: #fff;
+  flex-direction: column;
+  flex-basis: 48%;
+  justify-content: space-evenly;
+  align-items: stretch;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-right: 2px;
+  display: flex;
+}
+
+.flex-container-22 {
+  width: 45%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2px;
+  display: flex;
+}
+
+.avatar-1 {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+.flex-container-23 {
+  height: 85%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 2px;
+  display: flex;
+}
+
+.cara-bedford {
+  margin-left: 1px;
+}
+
+.star {
+  width: 96px;
+  height: 16px;
+  object-fit: cover;
+}
+
+.wakanda-was-amazing {
+  align-self: center;
+  margin-bottom: 2px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.card-2 {
+  width: 100%;
+  background-color: #fff;
+  flex-direction: column;
+  flex-basis: 48%;
+  justify-content: space-evenly;
+  align-items: stretch;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-right: 1px;
+  line-height: 28px;
+  display: flex;
+}
+
+.flex-container-24 {
+  width: 50%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2px;
+  line-height: 19px;
+  display: flex;
+}
+
+.avatar-2 {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+.flex-container-25 {
+  height: 85%;
+  flex-direction: column;
+  flex-basis: 66%;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 2px;
+  display: flex;
+}
+
+.cara-bedford-1 {
+  align-self: flex-end;
+}
+
+.star-1 {
+  width: 96px;
+  height: 16px;
+  object-fit: cover;
+}
+
+.wakanda-was-amazing-1 {
+  align-self: center;
+  margin-bottom: 2px;
+  font-weight: 400;
+}
+
+.flex-container-26 {
+  height: 100%;
+  flex-direction: column;
+  flex-basis: 32%;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: 28px;
+  display: flex;
+}
+
+.card-3 {
+  width: 100%;
+  background-color: #fff;
+  flex-direction: column;
+  flex-basis: 38%;
+  justify-content: space-evenly;
+  align-items: stretch;
+  padding-bottom: 2px;
+  padding-left: 20px;
+  padding-right: 2px;
+  font-weight: 400;
+  display: flex;
+}
+
+.flex-container-27 {
+  width: 45%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3px;
+  font-weight: 500;
+  display: flex;
+}
+
+.avatar-3 {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+.flex-container-28 {
+  height: 85%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 2px;
+  display: flex;
+}
+
+.cara-bedford-2 {
+  margin-left: 1px;
+}
+
+.star-2 {
+  width: 96px;
+  height: 16px;
+  object-fit: cover;
+}
+
+.wakanda-was-amazing-2 {
+  align-self: center;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  line-height: 28px;
+}
+
+.card-4 {
+  width: 100%;
+  background-color: #fff;
+  flex-direction: column;
+  flex-basis: 58%;
+  justify-content: space-evenly;
+  align-items: stretch;
+  padding-bottom: 1px;
+  padding-left: 20px;
+  padding-right: 7px;
+  display: flex;
+}
+
+.flex-container-29 {
+  width: 45%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2px;
+  display: flex;
+}
+
+.avatar-4 {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+.flex-container-30 {
+  height: 85%;
+  flex-direction: column;
+  flex-basis: 64%;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 2px;
+  display: flex;
+}
+
+.cara-bedford-3 {
+  align-self: flex-end;
+}
+
+.star-3 {
+  width: 96px;
+  height: 16px;
+  object-fit: cover;
+}
+
+.wakanda-was-amazing-3 {
+  align-self: center;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.flex-container-31 {
+  height: 100%;
+  flex-direction: column;
+  flex-basis: 32%;
+  justify-content: space-between;
+  align-items: stretch;
+  font-weight: 400;
+  display: flex;
+}
+
+.card-5 {
+  width: 100%;
+  background-color: #fff;
+  flex-direction: column;
+  flex-basis: 46%;
+  justify-content: space-evenly;
+  align-items: stretch;
+  padding-bottom: 1px;
+  padding-left: 20px;
+  padding-right: 2px;
+  display: flex;
+}
+
+.flex-container-32 {
+  width: 45%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2px;
+  font-weight: 500;
+  display: flex;
+}
+
+.avatar-5 {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+.flex-container-33 {
+  height: 85%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 2px;
+  display: flex;
+}
+
+.star-4 {
+  width: 96px;
+  height: 16px;
+  object-fit: cover;
+}
+
+.wakanda-was-amazing-4 {
+  align-self: center;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  line-height: 28px;
+}
+
+.card-6 {
+  width: 100%;
+  background-color: #fff;
+  flex-direction: column;
+  flex-basis: 50%;
+  justify-content: space-evenly;
+  align-items: stretch;
+  padding-bottom: 1px;
+  padding-left: 20px;
+  padding-right: 1px;
+  font-weight: 500;
+  display: flex;
+}
+
+.flex-container-34 {
+  width: 45%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2px;
+  display: flex;
+}
+
+.avatar-6 {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+.flex-container-35 {
+  height: 85%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 2px;
+  display: flex;
+}
+
+.cara-bedford-4 {
+  margin-left: 1px;
+}
+
+.star-5 {
+  width: 96px;
+  height: 16px;
+  object-fit: cover;
+}
+
+.wakanda-was-amazing-5 {
+  align-self: center;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.call-to-action {
+  color: #fff;
+  width: 100%;
+  background-color: #fff;
+  flex-direction: row;
+  flex-basis: 10%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 9px;
+  padding-right: 1px;
+  display: flex;
+}
+
+.container {
+  height: 75%;
+  background-color: #0077c0;
+  flex-direction: row;
+  flex-basis: 77%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3px;
+  margin-bottom: 1px;
+  display: flex;
+}
+
+.cute-asian-woman-stu {
+  width: 403px;
+  height: 344px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  align-self: flex-end;
+}
+
+.flex-container-36 {
+  height: 65%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 16px;
+  margin-left: 18px;
+  display: flex;
+}
+
+.what-are-you-waiting {
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.find-the-talent-to-g {
+  margin-bottom: 2px;
+  font-size: 3rem;
+  line-height: 60px;
+}
+
+.button-2 {
+  color: #0071d9;
+  text-align: center;
+  width: 35%;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  flex-direction: row;
+  flex-basis: 22%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px;
+  font-family: SF Pro Display, Arial;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 40px;
+  display: flex;
+}
+
+.footer {
+  color: #d9dbe1;
+  width: 100%;
+  background-color: #1d242b;
+  flex-direction: column;
+  flex-basis: 7%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 29px 21px 33px 80px;
+  font-weight: 400;
+  line-height: 26px;
+  display: flex;
+}
+
+.flex-container-37 {
+  color: #fff;
+  width: 80%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  padding-bottom: 1px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 30px;
+  display: flex;
+}
+
+.logo-1 {
+  width: 40px;
+  height: 24px;
+  object-fit: cover;
+}
+
+.wakanda-1 {
+  color: #f7f8f8;
+  margin-right: 10px;
+  font-size: 1.5rem;
+  line-height: 29px;
+}
+
+.company {
+  align-self: flex-end;
+  margin-left: 181px;
+}
+
+.support {
+  align-self: flex-end;
+  margin-left: 11px;
+}
+
+.subscribe-to-our-new {
+  margin-left: 28px;
+}
+
+.flex-container-38 {
+  width: 80%;
+  flex-direction: row;
+  flex-basis: 17%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.social-links {
+  width: 176px;
+  height: 32px;
+  object-fit: cover;
+  margin-top: 1px;
+}
+
+.flex-container-39 {
+  height: 90%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: flex-end;
+  align-items: stretch;
+  margin-top: 2px;
+  margin-left: 128px;
+  display: flex;
+}
+
+.blog {
+  margin-left: 1px;
+}
+
+.flex-container-40 {
+  height: 85%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 3px;
+  margin-left: 3px;
+  display: flex;
+}
+
+.help-center {
+  margin-left: 1px;
+}
+
+.terms-of-service {
+  margin-bottom: -1px;
+}
+
+.input-field-bg {
+  color: #d9dbe1;
+  height: 70%;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  flex-direction: row;
+  flex-basis: 23%;
+  justify-content: flex-start;
+  align-self: flex-start;
+  align-items: stretch;
+  margin-bottom: 2px;
+  font-family: SF Pro Display, Arial;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 24px;
+  display: flex;
+}
+
+.flex-container-41 {
+  width: 50%;
+  flex-direction: row;
+  flex-basis: 6%;
+  justify-content: space-between;
+  align-self: flex-start;
+  align-items: center;
+  margin-left: 86px;
+  display: flex;
+}
+
+.copyright-2022-waka {
+  align-self: flex-end;
+  margin-right: 41px;
+  font-size: .875rem;
+  line-height: 24px;
+}
+
+.contact-us {
+  align-self: flex-start;
+  margin-left: 21px;
+}
+
+.legal {
+  align-self: flex-start;
+}
+
+.flex-container-42 {
+  width: 20%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-left: 25px;
+  display: flex;
+}
+
+.flex-container-43 {
+  width: 20%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: 9px;
+  margin-left: 25px;
+  display: flex;
 }
